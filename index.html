@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Brand Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Global Styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    color: #efe6e6;
+}
+
+h2, h3 {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://media.istockphoto.com/id/1313456479/photo/man-and-soul-yoga-lotus-pose-meditation-on-nebula-galaxy-background.jpg?s=612x612&w=0&k=20&c=jJ0pVed-sHjDBtomrO7KmR4qtIfH8OaNhjmEsXvJmAI=');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.cta-button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #f0f0f0;
+}
+
+.about-us h2 {
+    color: #2ecc71;
+}
+
+.about-us p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Products & Services Section */
+.products-services {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.products-services .service {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.products-services img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f9f9f9;
+}
+
+.testimonials .testimonial {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+</style>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero section">
+        <div class="container">
+            <h1>Nurture Your Mind, Body, and Soul</h1>
+            <p style="color: #c0181e;">Transform Your Wellbeing with Our Holistic Approach</p>
+            <a href="#about" class="cta-button">Explore Our Wellness Journey</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-us section">
+        <div class="container">
+            <h2>Empowering Wellness with Care, Love, and Simplicity</h2>
+            <p>
+                Our mission is to provide products and services that nurture both physical and mental well-being. Through our holistic approach, we are committed to helping you lead a balanced and harmonious life, filled with joy and peace.
+            </p>
+        </div>
+    </section>
+
+    <!-- Products & Services Section -->
+    <section id="services" class="products-services section">
+        <div class="container">
+            <h2>Wellness Tailored for You</h2>
+            <div class="service">
+                <img src="https://bonavita.ph/wp-content/uploads/2022/03/homeopathic-supplement-alternative-medicine-2021-08-28-12-32-52-utc-1.jpg" alt="Service 1" style="border-radius: 10%;"> 
+                <h3>Natural Supplements</h3>
+                <p>Boost your physical vitality with our organic, natural supplements.</p>
+            </div>
+            <div class="service">
+                <img src="https://lirp.cdn-website.com/c51056b5/dms3rep/multi/opt/yoga%2Bretreats-960w.jpg" alt="Service 2" style="border-radius: 10%;"> 
+                <h3>Personalized Yoga Programs</h3>
+                <p>Experience peace and mindfulness with our customized yoga routines.</p>
+            </div>
+            <div class="service">
+                <img src="https://insideoutmastery.com/wp-content/uploads/2022/10/how-to-improve-mental-clarity.png" alt="Service 3" style="border-radius: 10%;"> 
+                <p>Join our workshops to improve your mental clarity and focus.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section">
+        <div class="container">
+            <h2>Hear from Those We've Helped</h2>
+            <div class="testimonial">
+                <p>"I have never felt more balanced and in tune with myself. Their personalized services truly transformed my mental and physical health."</p>
+                <p>- Simhadri P.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Contact us: info@wellnessbrand.com | +123-456-7890</p>
+            <div class="newsletter">
+                <input type="email" placehol
+der="Enter your email">
+                <button>Subscribe</button>
+            </div>
+            <p>&copy; 2024 Wellness Brand. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
