@@ -28,7 +28,7 @@ The Wellness-Brand-Landing-Page is a responsive, visually appealing landing page
   Here's the live demo : https://lokeshchilaparasetty.github.io/Wellness-Brand-Landing-Page/
   
 
-##License
+## License
 
   This project is licensed under the MIT License. See the LICENSE file for more details.
 
