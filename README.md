@@ -17,7 +17,7 @@ The Wellness-Brand-Landing-Page is a responsive, visually appealing landing page
 
 ## Clone the repository:
 
-  git clone https://github.com/your-username/Wellness-Brand-Landing-Page.git
+  git clone https://github.com/lokeshchilaparasetty/Wellness-Brand-Landing-Page.git
 
 ## Navigate to the project directory:
 
